@@ -21,16 +21,16 @@ export default function InputCapicua() {
         type="text"
         value={inputValue}
         onChange={(evento) => setInputValue(evento.target.value)}
-        placeholder="Escribe la palabra"
+        placeholder="Escribe la palabra o numero"
       />
       <div>
         <button onClick={verificarPalabra}>Validar</button>
       </div>
 
       {inputValue && esCapicua ? (
-        <p>¡La palabra es capicúa!</p>
+        <p>¡El texto digitado es capicúa!</p>
       ) : inputValue && mensaje ? (
-        <p>La palabra no es capicúa.</p>
+        <p>¡El texto digitado no es capicúa!.</p>
       ) : null}
     </div>
   );

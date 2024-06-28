@@ -5,7 +5,7 @@ import ManejadorInput from "./componenetes/input";
 function App() {
   return (
     <div className="App">
-      <h1>PALABRAS CAPICUA</h1>
+      <h1>PALABRAS O NUMEROS CAPICUA</h1>
       <ManejadorInput />
     </div>
   );
